@@ -4,7 +4,7 @@ import 'dart:convert';
 
 // Sua chave de API do Google Places
 // Certifique-se de que esta chave está correta e habilitada para a API do Google Places
-const String googleApiKey = 'AIzaSyBUOuMp_guU59mDn99zJr7kSnmhGd-uGMw'; // <--- VERIFIQUE ESTA CHAVE
+const String googleApiKey = 'AIzaSyC6U4zwghZQPY-EMlkmF0ZHw7X7kXQrxXw'; // <--- VERIFIQUE ESTA CHAVE
 
 class CitySearchScreen extends StatefulWidget {
   const CitySearchScreen({super.key});
