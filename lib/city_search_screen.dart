@@ -4,7 +4,7 @@ import 'dart:convert';
 
 // Sua chave de API do Google Places
 // Certifique-se de que esta chave está correta e habilitada para a API do Google Places
-const String googleApiKey = 'AIzaSyC6U4zwghZQPY-EMlkmF0ZHw7X7kXQrxXw'; // <--- VERIFIQUE ESTA CHAVE
+const String googleApiKey = 'AIzaSyC6U4zwghZQPY-EMlkmF0ZHw7X7kXQrxXw'; // <--- ESTA É A CHAVE CORRETA DO SEU CONSOLE
 
 class CitySearchScreen extends StatefulWidget {
   const CitySearchScreen({super.key});
@@ -22,12 +22,12 @@ class _CitySearchScreenState extends State<CitySearchScreen> {
   void initState() {
     super.initState();
     // Adicione um print para a chave da API no início
-    print('Google API Key carregada: $googleApiKey'); // <--- ADICIONE ESTA LINHA
+    print('Google API Key carregada: $googleApiKey');
   }
 
   Future<void> _searchCities(String query) async {
     // Adicione um print para confirmar que a função está sendo chamada
-    print('Função _searchCities chamada com query: $query'); // <--- ADICIONE ESTA LINHA
+    print('Função _searchCities chamada com query: $query');
 
     if (query.isEmpty) {
       setState(() {
